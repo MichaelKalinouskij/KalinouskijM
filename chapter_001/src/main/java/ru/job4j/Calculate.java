@@ -1,12 +1,12 @@
 package ru.job4j;
 
 
-/**
-* Class Класс для печати "Hello world"
-* @author kalinouskij
-* @since 21.11.2017
-* @version 1
-*/
+	/**
+	* Class Класс для печати "Hello world".
+	* @author kalinouskij
+	* @since 21.11.2017
+	* @version 1
+	*/
 
 
 public class Calculate {
@@ -16,11 +16,10 @@ public class Calculate {
 	* @param arg - arg.
 	*/
 	
-	public static void main (String[] args){
-		System.out.println ("Hello world.");
+	public static void main(String[] args) {
+		System.out.println("Hello world.");
 	}
-	
-	
+
 	/**
 	* Method echo.
 	* @param name Your name.
@@ -28,7 +27,5 @@ public class Calculate {
 	*/
 	public String echo(String name) {
     return "Echo, echo, echo : " + name;
-	}
-	
-	
+	}	
 }
