@@ -2,11 +2,10 @@ package ru.job4j.max;
 
 public class Max {
 
-    public int max (int first, int second){
+    public int max (int first, int second) {
 
-        while (first > second){
-            return first;
-        }
-        return second;
+        int result = (first > second) ? first : second;
+        return result;
+
     }
 }
