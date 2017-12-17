@@ -14,6 +14,5 @@ public class CounterTest {
         Counter sum = new Counter();
         sum.add(1,10);
         assertThat(sum, is(2+4+6+8+10));
-
     }
 }

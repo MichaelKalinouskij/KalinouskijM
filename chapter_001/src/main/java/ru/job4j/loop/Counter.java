@@ -8,8 +8,6 @@ public class Counter {
 
 
 
-
-
         public int add (int start, int finish) {
             this.start = start;
             this.finish = finish;
@@ -24,5 +22,6 @@ public class Counter {
             return result;
         }
     }
+
 
 
