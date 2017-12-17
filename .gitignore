@@ -4,3 +4,6 @@ _target_/
 
 .idea
 *.iml
+*.txt
+*.md
+*.gitignore
